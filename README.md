@@ -33,10 +33,8 @@ Body (JSON):
 ```
 {
 	"nome": "Nome do produto",
-	"codigo": "1",
 	"valor": "1.55",
 	"imagem": "",
-	"quantidade": "1",
 	"descricao": "Descrição do Produto"
 }
 ```

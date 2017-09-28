@@ -46,7 +46,7 @@ app.post('/produto', (req, res) => {
             res.send(MSG_OK);
         }).catch(() => res.MSG_ERROR(500).end());
     } else {
-        res.status(400).send(MSG_FORMATO_INVALIDO);
+        res.status(400).send(MSG_ERROR);
     }
 });
 
@@ -57,7 +57,7 @@ app.put('/produto/:id', (req, res) => {
             res.send(MSG_OK);
         }).catch(() => res.MSG_ERROR(500).end());
     } else {
-        res.status(400).send(MSG_FORMATO_INVALIDO);
+        res.status(400).send(MSG_ERROR);
     }    
 });
 
